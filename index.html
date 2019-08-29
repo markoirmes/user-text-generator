@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Text Generator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <p>Enter your text:</p>
+    <input type="text" id="userText" />
+    <p>How many paragraphs?</p>
+    <input type="number" id="howMany" /><br />
+    <input
+      type="button"
+      id="generate"
+      value="Generate Text"
+      onclick="generate()"
+    />
+    <input type="button" id="reset" value="Reset" onclick="reset()" />
+    <div id="output"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>
